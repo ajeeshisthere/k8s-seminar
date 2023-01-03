@@ -6,8 +6,8 @@ metadata:
     app: spring-music
     tier: frontend
 spec:
-  replicas: 2
-  stategy: 
+  replicas: 4
+  strategy: 
     type: Recreate 
   selector:
     matchLabels:
