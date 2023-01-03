@@ -10,7 +10,3 @@ spec:
     protocol: TCP
     port: 80
     targetPort: 8080
-  - name: https-managment
-    protocol: TCP
-    port: 443
-    targetPort: 9388
